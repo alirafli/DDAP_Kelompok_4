@@ -5,6 +5,7 @@ body {
   font-size: 10px;
   font-family: "Montserrat", sans-serif;
   color: #20272c;
+  background-color: #121212;
 }
 
 /* navbarnya */
@@ -13,6 +14,7 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 1;
   background-color: rgba(255, 255, 255, 0.8);
 }
 
@@ -65,6 +67,12 @@ body {
 
 /* navbar responsive */
 @media only screen and (max-width: 972px) {
+  .navbar-container {
+    position: relative;
+    width: 100%;
+    background-color: rgba(255, 255, 255);
+  }
+  
   .navbar {
     display: flex;
     flex-direction: column;
@@ -92,7 +100,5 @@ body {
 
 /* jumbotronn */
 .jumbo{
-  background-image: url("../img/jumbo1.jpg");
-  height: 1000px;
-  background-size: cover;
+  width: 100%;
 }
