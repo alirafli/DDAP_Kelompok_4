@@ -13,7 +13,7 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 1;
+  z-index: 99;
   background-color: rgba(255, 255, 255, 0.8);
 }
 
@@ -27,6 +27,11 @@ body {
 .navbar a {
   text-decoration: none;
   color: #20272c;
+  transition: 250ms;
+}
+
+.navbar a:hover {
+  color: #bb86fc;
 }
 
 .navbar-logo a {
@@ -47,6 +52,7 @@ body {
 
 .navbar-content li {
   margin: 0 2.725rem;
+  transition: 300ms;
 }
 
 .about-us {
@@ -109,6 +115,11 @@ body {
   height: 35em;
   border-radius: 10px;
   background-color: #333333;
+  transition: 0.3s;
+}
+
+.news-content:hover {
+  background-color: #2b2a2a;
 }
 
 .heading1 {
@@ -174,6 +185,11 @@ body {
   background-color: #333333;
   color: #f5f5f5;
   padding-top: 50px;
+  transition: 0.3s;
+}
+
+.sport-content:hover {
+  background-color: #2b2a2a;
 }
 
 .content {
@@ -185,8 +201,18 @@ body {
   text-align: center;
 }
 
+.content:hover {
+  width: 100%;
+}
+
 .content img {
   margin-bottom: 20px;
+  cursor: pointer;
+  transition: 300ms;
+}
+
+.content img:hover {
+  transform: scale(1.1, 1.1);
 }
 
 .content p {
