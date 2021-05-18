@@ -1,0 +1,376 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@400;500;700&display=swap");
+
+body {
+  font-size: 10px;
+  font-family: "Montserrat", sans-serif;
+  color: #20272c;
+  background-color: #121212;
+}
+.livebar {
+  height: 600px;
+  width: 1300px;
+  border-radius: 30px;
+  background-color: #333333;
+  margin-top: 84px;
+  padding: 0 20px 0 20px;
+}
+.livebarcontent {
+  height: 80px;
+  width: 1262px;
+  border-radius: 10px;
+  margin-top: 64px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 30px;
+  opacity: 0.5;
+}
+
+/* navbarnya */
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  transition: 250ms;
+}
+
+.navbar a:hover {
+  color: #bb86fc;
+}
+
+.navbar-logo a {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 3em;
+  line-height: 3.7em;
+  margin-left: 2.6rem;
+}
+
+.navbar-content {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.4em;
+  line-height: 2.8em;
+}
+
+.navbar-content li {
+  margin: 0 2.725rem;
+  transition: 300ms;
+}
+
+.about-us {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2.4em;
+  line-height: 2.8em;
+  margin-right: 2.6rem;
+}
+
+.navbar-active {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+}
+
+/* jumbotronn */
+.jumbo {
+  width: 100%;
+}
+
+/* recent news */
+.title {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  color: #f5f5f5;
+  cursor: pointer;
+}
+
+.news-wrapper {
+  margin-top: 84px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 36px;
+}
+
+.arrow {
+  background-image: url("../img/icon/arrow.png");
+  background-repeat: no-repeat;
+  width: 24px;
+  height: 24px;
+  background-size: auto;
+  cursor: pointer;
+}
+
+/* news content */
+.news-content-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 25px;
+}
+
+.news-content {
+  width: auto;
+  height: 35em;
+  border-radius: 10px;
+  background-color: #333333;
+  transition: 0.3s;
+}
+
+.news-content:hover {
+  background-color: #2b2a2a;
+}
+
+.heading1 {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #f5f5f5;
+  padding: 19px 5px 11px 34px;
+}
+
+.paragraph1 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: #ebebeb;
+  padding: 0 10px 0 34px;
+}
+
+.news1 {
+  background-image: url("../img/news/rugby.png");
+  background-repeat: no-repeat;
+  height: 63%;
+  border-radius: 10px 10px 0 0;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.news2 {
+  background-image: url("../img/news/cycling.png");
+  background-repeat: no-repeat;
+  height: 63%;
+  border-radius: 10px 10px 0 0;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.news3 {
+  background-image: url("../img/news/football.png");
+  background-repeat: no-repeat;
+  height: 63%;
+  border-radius: 10px 10px 0 0;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.Ongoing1 {
+  background-image: url("../img/OnGoing/Og1.png");
+  background-repeat: no-repeat;
+  height: 63%;
+  border-radius: 10px 10px 0 0;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.Ongoing2 {
+  background-image: url("../img/OnGoing/Og2.png");
+  background-repeat: no-repeat;
+  height: 63%;
+  border-radius: 10px 10px 0 0;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.Ongoing3 {
+  background-image: url("../img/OnGoing/Og3.png");
+  background-repeat: no-repeat;
+  height: 63%;
+  border-radius: 10px 10px 0 0;
+  background-size: cover;
+  cursor: pointer;
+}
+
+/* sport */
+.sport-wrapper {
+  text-align: center;
+  padding-top: 86px;
+}
+
+.sport-content {
+  margin: 0 auto;
+  border-radius: 10px;
+  width: 100%;
+  height: 251px;
+  background-color: #333333;
+  color: #f5f5f5;
+  padding-top: 50px;
+  transition: 0.3s;
+}
+
+.sport-content:hover {
+  background-color: #2b2a2a;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 70px;
+  justify-content: center;
+  text-align: center;
+}
+
+.content:hover {
+  width: 100%;
+}
+
+.content img {
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: 300ms;
+}
+
+.content img:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.content p {
+  margin-left: -100px;
+}
+
+/* footer */
+footer {
+  background-color: #333333;
+  margin-top: 84px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-content1 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  padding-top: 50px;
+  width: 100%;
+}
+
+.footer-content1 h1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #bb86fc;
+}
+
+.fcontent1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 33.33%;
+}
+
+.footer-p {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: right;
+  letter-spacing: 0.05em;
+
+  color: #f5f5f5;
+}
+
+.footer-sosmed img {
+  margin: 39px 20px 70px 20px;
+}
+
+.footer-content2 h1 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 1104px) {
+  .footer-sosmed img {
+    margin: 39px 12px 70px 12px;
+  }
+}
+
+/*responsive */
+@media only screen and (max-width: 972px) {
+  /* navbar */
+  .navbar-container {
+    position: relative;
+    background-color: rgba(255, 255, 255);
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-decoration: none;
+  }
+
+  .navbar-content {
+    font-size: 1.9em;
+  }
+
+  .navbar-logo a {
+    margin-left: 0;
+  }
+  .navbar-logo {
+    margin-bottom: -45px;
+  }
+
+  .about-us {
+    font-size: 1.9em;
+    margin-right: 0;
+    margin-top: -15px;
+  }
+
+  /* news content */
+  .container {
+    padding: 0 30px 0 30px;
+  }
+
+  .news-content-container {
+    grid-template-columns: auto;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .heading1 {
+    font-size: 15px;
+  }
+
+  .paragraph1 {
+    font-size: 11px;
+  }
+}
