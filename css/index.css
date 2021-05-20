@@ -246,7 +246,7 @@ footer {
   color: #bb86fc;
 }
 
-.fcontent1 {
+.content1 {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -337,7 +337,7 @@ footer {
     width: 100%;
   }
 
-  .fcontent1 {
+  .content1 {
     display: flex;
     justify-content: center;
     flex-direction: column;
