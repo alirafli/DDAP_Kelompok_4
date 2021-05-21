@@ -4,8 +4,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+
+  <!-- slick -->
+  <link rel="stylesheet" type="text/css" href="thirdApp/slick-1.8.1/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="thirdApp/slick-1.8.1/slick/slick-theme.css" />
+
   <!-- custom css -->
   <link rel="stylesheet" href="../css/sport.css">
 
@@ -17,56 +24,49 @@
   <div class="navbar-container">
     <nav class="navbar">
       <div class="navbar-logo">
-        <a href="../index.html">INFORT</a>
+        <a href="#">INFORT</a>
       </div>
       <ul class="navbar navbar-nav navbar-content">
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="../index.html#news">News</a></li>
-        <li><a href="../index.html#sport">Sports</a></li>
-        <li><a href="../index.html#events">Events</a></li>
+        <li><a href="../index.html" class="link ">Home</a></li>
+        <li><a href="../index.html#news" class="link">News</a></li>
+        <li><a href="../index.html#sport" class="link navbar-active">Sports</a></li>
+        <li><a href="../index.html#events" class="link">Events</a></li>
       </ul>
-      <div class="about-us" id="cath">
-        <a href="#">About Us</a>
+      <div class="about-us">
+        <a href="about-us.html">About Us</a>
       </div>
     </nav>
   </div>
 
+  <!-- content -->
+  <img src="../img/sports/football/jumbotron.svg" class="d-block w-100" alt="...">
   <div class="container">
-    <img src="../img/OngoingTournament.png" class="d-block w-100" alt="...">
-    </img>
 
+    <!-- on-going -->
+    <div class="news-wrapper">
+      <h1 class="title">ONGOING TOURNAMENTS</h1>
+      <div class="arrow"></div>
+    </div>
 
-    <div class="container">
-      <div class="news-wrapper">
-        <h1 class="title" id="news">ONGOING TOURNAMENT</h1>
+    <!-- content recent news -->
+    <div class="ongoing-content-container">
+      <div class="ongoing-content">
+        <div class="ongoing-content ongoing1"></div>
+        <h1 class="heading1">Salto, salah satu olahraga favorit di Indonesia</h1>
+        <p class="paragraph1">11/15/2024</p>
       </div>
-      <div class="news-content-container">
-        <div class="news-content">
-          <div class="news-content Ongoing1"></div>
-          <h1 class="heading1">EUROPEAN CHAMPIONSHIP</h1>
-          <p class="paragraph1">11/15/2024-19/15/2024</p>
-        </div>
-        <div class="news-content">
-          <div class="news-content Ongoing2"></div>
-          <h1 class="heading1">AMERICAN CHAMPIONSHIP</h1>
-          <p class="paragraph1">11/15/2024-19/15/2024</p>
-        </div>
-        <div class="news-content">
-          <div class="news-content Ongoing3"></div>
-          <h1 class="heading1">INDIAN CHAMPIONSHIP</h1>
-          <p class="paragraph1">11/15/2024-19/15/2024</p>
-        </div>
+      <div class="ongoing-content">
+        <div class="ongoing-content ongoing2"></div>
+        <h1 class="heading1">Salto, salah satu olahraga favorit di Indonesia</h1>
+        <p class="paragraph1">11/15/2024</p>
       </div>
-
-
+      <div class="ongoing-content">
+        <div class="ongoing-content ongoing3"></div>
+        <h1 class="heading1">Salto, salah satu olahraga favorit di Indonesia</h1>
+        <p class="paragraph1">11/15/2024</p>
+      </div>
     </div>
-    <div class="livebar">
 
-    </div>
-    <div class="livebar">
-     
-
-    </div>
   </div>
 
   <!-- footer -->
@@ -96,6 +96,19 @@
     </div>
   </footer>
 
+
+  <!-- scriptnya -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+    crossorigin="anonymous"></script>
+
+  <!-- slick -->
+  <script type="text/javascript" src="thirdApp/slick-1.8.1/slick/slick.min.js"></script>
+
+  <!-- custom javascript -->
+  <script src="js/index.js"></script>
 </body>
 
 </html>

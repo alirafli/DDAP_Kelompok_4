@@ -8,24 +8,13 @@ body {
   background-color: #121212;
 }
 
+/* navbarnya */
 .navbar-container {
   position: sticky;
-  top: 0;
   width: 100%;
-  z-index: 99;
+  top: 0;
   background-color: #121212;
 }
-
-.livebar {
-  height: 600px;
-  width: 100%;
-  border-radius: 10px;
-  background-color: #333333;
-  margin-top: 84px;
-  padding: 0 20px 0 20px;
-}
-
-/* navbarnya */
 
 .navbar {
   display: flex;
@@ -36,7 +25,7 @@ body {
 
 .navbar a {
   text-decoration: none;
-  color: white;
+  color: #ffffff;
   transition: 250ms;
 }
 
@@ -80,12 +69,12 @@ body {
   font-weight: bold;
 }
 
-/* recent news */
+/* on going */
 .title {
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 2.4em;
   line-height: 28px;
   color: #f5f5f5;
   cursor: pointer;
@@ -99,23 +88,13 @@ body {
   padding-bottom: 36px;
 }
 
-.arrow {
-  background-image: url("../img/icon/arrow.png");
-  background-repeat: no-repeat;
-  width: 24px;
-  height: 24px;
-  background-size: auto;
-  cursor: pointer;
-}
-
-/* news content */
-.news-content-container {
+.ongoing-content-container {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 25px;
 }
 
-.news-content {
+.ongoing-content {
   width: auto;
   height: 35em;
   border-radius: 10px;
@@ -123,7 +102,7 @@ body {
   transition: 0.3s;
 }
 
-.news-content:hover {
+.ongoing-content:hover {
   background-color: #2b2a2a;
 }
 
@@ -149,8 +128,8 @@ body {
   padding: 0 10px 0 34px;
 }
 
-.Ongoing1 {
-  background-image: url("../img/OnGoing/Og1.png");
+.ongoing1 {
+  background-image: url("../img/sports/banner3.svg");
   background-repeat: no-repeat;
   height: 63%;
   border-radius: 10px 10px 0 0;
@@ -158,8 +137,8 @@ body {
   cursor: pointer;
 }
 
-.Ongoing2 {
-  background-image: url("../img/OnGoing/Og2.png");
+.ongoing2 {
+  background-image: url("../img/sports/banner2.svg");
   background-repeat: no-repeat;
   height: 63%;
   border-radius: 10px 10px 0 0;
@@ -167,8 +146,8 @@ body {
   cursor: pointer;
 }
 
-.Ongoing3 {
-  background-image: url("../img/OnGoing/Og3.png");
+.ongoing3 {
+  background-image: url("../img/sports/banner1.svg");
   background-repeat: no-repeat;
   height: 63%;
   border-radius: 10px 10px 0 0;
@@ -275,11 +254,15 @@ footer {
   }
 
   /* news content */
+  .title {
+
+  }
+
   .container {
     padding: 0 30px 0 30px;
   }
 
-  .news-content-container {
+  .ongoing-content-container {
     grid-template-columns: auto;
   }
 

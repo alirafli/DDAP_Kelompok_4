@@ -207,6 +207,7 @@ body {
 
 .content img {
   margin-bottom: 20px;
+  margin-left: -29px;
   cursor: pointer;
   transition: 300ms;
 }
@@ -325,6 +326,11 @@ footer {
 
   .news-content-container {
     grid-template-columns: auto;
+  }
+
+  /* sport */
+  .content img {
+    margin-left: 0px;
   }
 
   /* footer */
