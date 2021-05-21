@@ -108,6 +108,7 @@ body {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 25px;
+  
 }
 
 .news-content {
@@ -116,6 +117,7 @@ body {
   border-radius: 10px;
   background-color: #333333;
   transition: 0.3s;
+  text-decoration:none;
 }
 
 .news-content:hover {
