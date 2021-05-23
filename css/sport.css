@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap%27");
 
 body {
   font-size: 10px;
@@ -13,6 +14,7 @@ body {
   position: sticky;
   width: 100%;
   top: 0;
+  z-index: 99;
   background-color: #121212;
 }
 
@@ -34,11 +36,13 @@ body {
 }
 
 .navbar-logo a {
-  font-style: normal;
+  font-family: Bebas Neue;
+  font-style: italic;
   font-weight: bold;
-  font-size: 3em;
+  font-size: 4em;
   line-height: 3.7em;
   margin-left: 2.6rem;
+  letter-spacing: 0.1em;
 }
 
 .navbar-content {
@@ -155,6 +159,127 @@ body {
   cursor: pointer;
 }
 
+/* livebar */
+.livebar-container {
+  background-color: #333333;
+  width: 100%;
+  height: auto;
+  margin-top: 110px;
+  border-radius: 10px;
+  padding: 40px 100px 35px 100px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.score-text {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 47px;
+  margin-bottom: 30px;
+
+  color: #ffffff;
+}
+
+.score-container {
+  width: 100%;
+}
+
+.content-wrapper {
+  background-color: #bb86fc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+
+  padding: 25px 50px 45px 50px;
+  margin: 0 10px 0 10px;
+  width: 100%;
+}
+
+.stage {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.content-live {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 100px;
+}
+
+.tim1,
+.tim2 {
+  height: 150px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.tim1 img,
+.tim2 img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.tim1 h1,
+.tim2 h1 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+
+  color: #f5f5f5;
+  margin-top: 10px;
+}
+
+.score {
+  font-family: montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 80px;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.finished {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 5px 40px;
+  margin-top: 15px;
+
+  color: #ffffff;
+  background-color: #333333;
+}
+
 /* footer */
 footer {
   background-color: #333333;
@@ -254,16 +379,49 @@ footer {
   }
 
   /* news content */
-  .title {
-
-  }
-
   .container {
     padding: 0 30px 0 30px;
   }
 
   .ongoing-content-container {
     grid-template-columns: auto;
+  }
+
+  /* content livebar */
+  .score {
+    font-size: 40px;
+  }
+
+  .stage {
+    font-size: 18px;
+  }
+
+  .wrap {
+    margin: 0;
+  }
+
+  .tim1 h1,
+  .tim2 h1 {
+    font-size: 10px;
+  }
+
+  .finished {
+    font-size: 10px;
+    padding: 5px 20px;
+  }
+
+  .tim1,
+  .tim2 {
+    height: 70px;
+    width: 70px;
+  }
+
+  .livebar-container {
+    padding: 40px 20px 35px 20px;
+  }
+
+  .content-wrapper {
+    padding: 25px 30px 45px 30px;
   }
 
   /* footer */
@@ -286,7 +444,45 @@ footer {
   }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 376px) {
+  /* content livebar */
+  .score {
+    font-size: 25px;
+  }
+
+  .stage {
+    font-size: 10px;
+  }
+
+  .wrap {
+    margin: 0 0px;
+  }
+
+  .tim1 h1,
+  .tim2 h1 {
+    font-size: 5px;
+    line-height: 5px;
+  }
+
+  .tim1,
+  .tim2 {
+    height: 50px;
+    width: 50px;
+  }
+
+  .finished {
+    font-size: 8px;
+  }
+
+  .livebar-container {
+    padding: 40px 0px 35px 0px;
+  }
+
+  .content-wrapper {
+    padding: 25px 0px 45px 0px;
+  }
+
+  /* etc */
   .heading1 {
     font-size: 15px;
   }

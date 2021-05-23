@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap%27");
 
 body {
   font-size: 10px;
@@ -34,11 +35,13 @@ body {
 }
 
 .navbar-logo a {
-  font-style: normal;
+  font-family: Bebas Neue;
+  font-style: italic;
   font-weight: bold;
-  font-size: 3em;
+  font-size: 4em;
   line-height: 3.7em;
   margin-left: 2.6rem;
+  letter-spacing: 0.1em;
 }
 
 .navbar-content {

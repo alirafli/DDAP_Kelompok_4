@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap%27");
 
 body {
   font-size: 10px;
@@ -35,11 +36,13 @@ body {
 }
 
 .navbar-logo a {
-  font-style: normal;
+  font-family: Bebas Neue;
+  font-style: italic;
   font-weight: bold;
-  font-size: 3em;
+  font-size: 4em;
   line-height: 3.7em;
   margin-left: 2.6rem;
+  letter-spacing: 0.1em;
 }
 
 .navbar-content {
@@ -108,7 +111,6 @@ body {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 25px;
-  
 }
 
 .news-content {
@@ -117,7 +119,7 @@ body {
   border-radius: 10px;
   background-color: #333333;
   transition: 0.3s;
-  text-decoration:none;
+  text-decoration: none;
 }
 
 .news-content:hover {
@@ -219,7 +221,7 @@ body {
 }
 
 .content p {
-  margin-left: -100px;
+  margin-left: -150px;
 }
 
 /* footer */
@@ -335,6 +337,10 @@ footer {
     margin-left: 0px;
   }
 
+  .content p {
+    margin-left: -60px;
+  }
+
   /* footer */
 
   .footer-content1 {
@@ -370,5 +376,9 @@ footer {
 
   .footer-p {
     font-size: 11px;
+  }
+
+  .content p {
+    margin-left: -100px;
   }
 }
