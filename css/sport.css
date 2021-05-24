@@ -280,6 +280,60 @@ body {
   background-color: #333333;
 }
 
+/* stream */
+.stream {
+  background-color: #333333;
+  width: 100%;
+  height: 553px;
+  margin-top: 110px;
+  border-radius: 10px;
+  padding: 40px 0 35px 0;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  overflow: scroll;
+}
+
+.stream-container {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.watch-here {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 10px;
+  width: 70%;
+  margin-left: 40px;
+  margin-top: 30px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #ffffff;
+  background-color: #bb86fc;
+  cursor: pointer;
+  transition: 300ms;
+}
+
+.watch-here:hover {
+  background-color: #9f6ae0;
+}
+
+.stream-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
 /* footer */
 footer {
   background-color: #333333;
@@ -424,6 +478,36 @@ footer {
     padding: 25px 30px 45px 30px;
   }
 
+  .stream-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .score-text {
+    font-size: 35px;
+  }
+
+  .stream-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .stream-container iframe {
+    width: 100%;
+  }
+
+  .watch-here {
+    font-size: 15px;
+    width: 70%;
+    margin: 0;
+    margin-top: 20px;
+    height: 40px;
+
+    color: #ffffff;
+    background-color: #bb86fc;
+  }
+
   /* footer */
 
   .footer-content1 {
@@ -482,6 +566,10 @@ footer {
     padding: 25px 0px 45px 0px;
   }
 
+  .score-text {
+    font-size: 23px;
+  }
+
   /* etc */
   .heading1 {
     font-size: 15px;
@@ -498,4 +586,25 @@ footer {
   .footer-p {
     font-size: 11px;
   }
+}
+
+/* scroll */
+.stream::-webkit-scrollbar {
+  width: 20px;
+}
+
+.stream::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgba(128, 128, 128, 0);
+}
+
+.stream::-webkit-scrollbar-thumb {
+  background: #a5a5a5;
+}
+
+.stream::-webkit-scrollbar-thumb:hover {
+  background: #7e7e7e;
+}
+
+.stream::-webkit-scrollbar-corner {
+  background: rgba(0, 0, 0, 0);
 }
