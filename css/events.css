@@ -39,7 +39,6 @@ body {
   font-style: italic;
   font-weight: bold;
   font-size: 4em;
-  line-height: 3.7em;
   margin-left: 2.6rem;
   letter-spacing: 0.1em;
 }
@@ -234,6 +233,7 @@ footer {
 
   .navbar-logo a {
     margin-left: 0;
+    line-height: 3.7em;
   }
   .navbar-logo {
     margin-bottom: -45px;

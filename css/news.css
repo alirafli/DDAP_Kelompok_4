@@ -13,7 +13,7 @@ body {
   position: sticky;
   top: 0;
   width: 100%;
-  background-color: #121212;
+  /* background-color: #121212; */
 }
 
 .navbar {
@@ -38,7 +38,6 @@ body {
   font-style: italic;
   font-weight: bold;
   font-size: 4em;
-  line-height: 3.7em;
   margin-left: 2.6rem;
   letter-spacing: 0.1em;
 }
@@ -195,7 +194,7 @@ footer {
   color: #bb86fc;
 }
 
-.fcontent1 {
+.content1 {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -255,6 +254,7 @@ footer {
 
   .navbar-logo a {
     margin-left: 0;
+    line-height: 3.7em;
   }
   .navbar-logo {
     margin-bottom: -45px;
