@@ -4,7 +4,7 @@ $(".link").on("click", function () {
 });
 
 $(".sport-content").slick({
-  dots: true,
+  dots: false,
   infinite: true,
   speed: 300,
   slidesToShow: 5,
